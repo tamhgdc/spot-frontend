@@ -1,0 +1,88 @@
+.card {
+    width: 15em;
+    height: 22.5em;
+    background-color: #303030;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    height: 13em;
+    width: 13em;
+    color: #303030;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    /* no underline */
+}
+
+a:hover {
+    color: rgb(194, 194, 194);
+    text-decoration: underline;
+
+    /* no underline */
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 5em;
+}
+
+.artist, .item {
+    font-size: 0.8em;
+}
+
+.item {
+    font-weight: 600;
+    margin: 0.5em 0;
+    overflow-wrap: normal;
+    max-height: 2.5em;
+    overflow: hidden;
+}
+
+
+.card .score {
+    font-size: 0.8em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.2em 0;
+    width: 100%;
+}
+
+.accent {
+    color: red
+}
+
+.text-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1em;
+    padding: 0 1em;
+}

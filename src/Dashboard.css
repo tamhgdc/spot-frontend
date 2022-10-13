@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #222;
+    color: white;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.page-buttons {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+}
